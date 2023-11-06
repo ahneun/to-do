@@ -1,4 +1,164 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+.App-header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-color: grey;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: calc(10px + 1vmin);
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+.input-list {
+  border: none;
+  background-color: grey(255, 255, 255);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px;
+  background-color: rgb(223, 236, 232);
+  border-radius: 0.5rem;
+}
+
+.input-list-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  gap: 24px;
+}
+
+.input-place {
+  border-radius: 0.5rem;
+  height: 40px;
+  width: 250px;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.submit-btn {
+  display: flex;
+  border-radius: 0.5rem;
+  font-size: calc(10px + 1vmin);
+  background-color: teal;
+  border: none;
+  color: white;
+  margin: 10px;
+  padding: 15px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-list-header {
+  margin-bottom: 1rem;
+  text-align: left; /* 좌측 정렬 */
+}
+
+.card-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 1200px;
+  gap: 24px;
+  padding: 24px;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  gap: 24px;
+  border: 5px solid rgb(2, 177, 89);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0, 3);
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 10rem;
+  margin: 0px;
+}
+
+.card-btns {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
+  gap: 10px;
+}
+
+.card-btn {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2.5px solid red;
+}
+
+.btn-done {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2.5px solid green;
+}
+
+.btn-cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2.5px solid blue;
+}
+
+/* ----------------------------------------------------------------- */
+
+label {
+  font-weight: bold;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -13,17 +173,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +184,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
